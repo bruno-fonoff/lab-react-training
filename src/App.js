@@ -5,6 +5,11 @@ import { BoxColor } from './components/BoxColor';
 import { CreditCard } from './components/CreditCard';
 import { Rating } from './components/Rating';
 import { DriverCard } from './components/DriverCard';
+import { LikeButton } from './components/LikeButton';
+import { ClickablePicture } from './components/ClickablePicture/ClickablePicture';
+import semOculos from './assets/images/maxence.png';
+import comOculos from './assets/images/maxence-glasses.png';
+
 import './styleApp.css';
 
 function App() {
@@ -104,6 +109,8 @@ function App() {
             licensePlate: 'BE33ER',
           }}
         />
+        <LikeButton />
+        <ClickablePicture img={semOculos} imgClicked={comOculos} />
       </div>
     </>
   );
