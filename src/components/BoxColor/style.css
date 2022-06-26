@@ -1,0 +1,19 @@
+.colorBox {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  height: 85px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #colors {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  height: 70px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+} */

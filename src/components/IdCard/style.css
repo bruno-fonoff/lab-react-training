@@ -1,0 +1,15 @@
+#idCard {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#profile {
+  display: inline-block;
+  line-height: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.fotoperfil {
+}
